@@ -32,7 +32,8 @@ nav {
 .image{
     align-items: center;
     margin-top: 40px;
-
+    height: 700px;
+    width: 700px;
 }
 .media.flipped {
     flex-direction: row-reverse;
