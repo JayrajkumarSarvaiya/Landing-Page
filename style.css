@@ -1,0 +1,31 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    margin: 0 -50px;
+    font-size: 18px;
+    
+    
+  }
+  nav li {
+    margin: 0 50px;
+}
+.push-right{
+    margin-right: auto;
+}
+.one{
+    height: 600px;
+    background-color: #1f2937;
+}
+.two{
+    height: 600px;
+}
+.three{
+    height: 600px;
+    background-color: blanchedalmond;
+}
+.four{
+    height: 600px;
+}
