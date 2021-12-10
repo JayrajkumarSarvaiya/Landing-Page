@@ -5,15 +5,18 @@
 nav {
     display: flex;
     margin: 0 -50px;
-    font-size: 18px;
+    font-size: 24px;
     
     
   }
   nav li {
     margin: 0 50px;
+    margin-top: 50px;
+    margin-right: 90px;
 }
 .push-right{
     margin-right: auto;
+    margin-left: 90px;
 }
 .one{
     height: 600px;
@@ -21,6 +24,29 @@ nav {
 }
 .two{
     height: 600px;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+.image{
+    align-items: center;
+    margin-top: 40px;
+
+}
+.media.flipped {
+    flex-direction: row-reverse;
+}
+.media .content {
+    flex: 1;
+    padding: 100px;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.info {
+    flex: 1;
+    font-size: 18px;
+    color: #f9faf8;
 }
 .three{
     height: 600px;
