@@ -9,21 +9,24 @@ nav {
     
     
   }
-  nav li {
+  nav a {
     margin: 0 50px;
     margin-top: 50px;
     margin-right: 90px;
+    color: #f9faf8;
 }
 .push-right{
     margin-right: auto;
     margin-left: 90px;
 }
+.logo{
+    height: 100px;
+    width: 100%;
+    border-radius: 50%;
+}
 .one{
     height: 600px;
     background-color: #1f2937;
-}
-.two{
-    height: 600px;
 }
 .media {
     display: flex;
@@ -33,8 +36,10 @@ nav {
     align-items: center;
     margin-top: 40px;
     margin-bottom: 500px;
+    border-radius: 100%;
     height: 10px;
     width: 700px;
+    
 }
 .media.flipped {
     flex-direction: row-reverse;
@@ -58,10 +63,62 @@ nav {
     height: 40px;
     width: 100px;
     font-weight: bold;
+    border-radius: 18px;
+}
+.two{
+    height: 600px;
+    align-items: center;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #1f2937;
+    
+}
+.arrange {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 60px;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+  }
+.img{
+    height: 200px;
+    width: 100%;
+    
+}
+.subtext{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px ;
 }
 .three{
     height: 600px;
-    background-color: blanchedalmond;
+    background-color: #E5E7EB;
+}
+.quote{
+    text-align: center;
+    text-align: center;
+    margin-top: 170px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.sayar{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-left: 900px;
 }
 .four{
     height: 600px;
