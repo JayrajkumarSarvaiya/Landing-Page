@@ -119,7 +119,51 @@ h1{
     color: #1F2937;
     font-style: italic;
     margin-left: 900px;
+    font-weight: bold;
 }
 .four{
-    height: 600px;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+}
+.add{
+    width: 900px;
+    height: 120px;
+    border: 4px solid darkslategray;
+    background: #3882F6
+}
+.last-h{
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.last{
+    color: white;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+
+.copy-right{
+    background: #1f2937;
+    display:flex;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.last-btn{
+background-color: #3882F6;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 18px;
+    margin-left: 400px;
 }
