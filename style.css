@@ -133,19 +133,26 @@ h1{
 .add{
     width: 900px;
     height: 120px;
+    display: flex;
+    padding: 15px;
     border: 4px solid darkslategray;
-    background: #3882F6
+    background: #3882F6;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 .last-h{
     color: white;
-    font-size: 30px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 80px;
 }
 .last{
     color: white;
-    padding-left: 30px;
+    font-size: 18px;
     text-align: center;
+    padding-bottom: 50px;
     
 }
 
@@ -161,9 +168,11 @@ h1{
 .last-btn{
 background-color: #3882F6;
     color: #fff;
+    display: inline-block;
     height: 40px;
     width: 100px;
     font-weight: bold;
-    border-radius: 18px;
+    border-radius: 5px;
     margin-left: 400px;
+    padding: 6px 12px;
 }
